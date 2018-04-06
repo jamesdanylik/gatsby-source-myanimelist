@@ -8,9 +8,7 @@ const {
 	typePrefix: `Myanimelist`,
 })
 
-// 
-
-export const ANIME_TYPE = `Anime`; // Artist is 1-> Many with Album, 1-> Many with Track 1-> Many with Playback
+export const ANIME_TYPE = `Anime`; 
 
 export const META_TYPE = `Meta`
 
