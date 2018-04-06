@@ -15,7 +15,7 @@ npm install --save gatsby-source-myanimelist
 // In your gatsby-config.js
 plugins: [
 	{
-	      resolve: "gatsby-source-lastfm",
+	      resolve: "gatsby-source-myanimelist",
 	      options: {
 	        username: '<<USERNAME TO TRACK>>'
 	      },
