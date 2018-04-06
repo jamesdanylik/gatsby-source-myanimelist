@@ -1,4 +1,4 @@
-# gatsby-source-lastfm
+# gatsby-source-myanimelist
 
 This is a source plugin for GatsbyJS to pull information from MyAnimeList.  Currently, the plugin grabs all of a user's listed anime and provides it under a single node.  Providing node based organization of categories is a work-in-progress.  Additional features by request.
 
