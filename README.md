@@ -1,5 +1,9 @@
 # gatsby-source-myanimelist
 
+[![Build Status](https://travis-ci.org/jamesdanylik/gatsby-source-myanimelist.svg?branch=master)](https://travis-ci.org/jamesdanylik/gatsby-source-myanimelist)
+[![npm package](https://img.shields.io/npm/v/gatsby-source-myanimelist.svg)](https://www.npmjs.org/package/gatsby-source-myanimelist)
+[![npm package](https://img.shields.io/npm/dm/gatsby-source-myanimelist.svg)](https://npmcharts.com/compare/gatsby-source-myanimelist?minimal=true)
+
 This is a source plugin for GatsbyJS to pull information from MyAnimeList.  Currently, the plugin grabs all of a user's listed anime and provides it under a single node.  Providing node based organization of categories is a work-in-progress.  Additional features by request.
 
 
