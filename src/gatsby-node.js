@@ -32,6 +32,10 @@ exports.sourceNodes = async({boundActionCreators}, {
 	parseString(xml, {trim: true}, (err, result) => {
 		//console.log("\n" + result.myanimelist.anime.length + " Anime")
 
+		if(!result.hasOwnProperty('myanimelist')) {
+			return
+		}
+
 		result.myanimelist.anime.forEach(anime => {
 			const animeNode = AnimeNode({
 				id: anime.series_animedb_id[0],
