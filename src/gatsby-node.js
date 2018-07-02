@@ -32,7 +32,30 @@ exports.sourceNodes = async({boundActionCreators}, {
 	parseString(xml, {trim: true}, (err, result) => {
 		//console.log("\n" + result.myanimelist.anime.length + " Anime")
 
-		if(!result.hasOwnProperty('myanimelist')) {
+		if(result == undefined || !result.hasOwnProperty('myanimelist')) {
+			const animeNode = AnimeNode({
+				id: 1,
+				series_title: "NONE",
+				series_synonyms: "NONE",
+				series_type: "NONE",
+				series_status: "NONE",
+				series_start: "NONE",
+				series_end: "NONE",
+				series_image: "NONE",
+				series_episodes: "NONE",
+				//
+				my_id: "NONE",
+				my_watched_episodes: "NONE",
+				my_start: "NONE",
+				my_end: "NONE",
+				my_score: "NONE",
+				my_status: "NONE",
+				my_rewatching: "NONE",
+				my_rewatching_ep: "NONE",
+				my_last_updated: "NONE",
+				my_tags: "NONE",
+			})
+			createNode(animeNode)
 			return
 		}
 
