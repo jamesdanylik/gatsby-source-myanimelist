@@ -10,7 +10,7 @@ On or about May 24th, the new owners of MyAnimeList unilateraly decided to disco
 
 As a result, this plugin (and indeed anything else like it) no longer works.  The only way to get your list programtically from MAL at this point in time is to scrape the HTML from the site yourself.  At some point, I know there was an export to XML available (since I used it the moment I smelled trouble), but I believe this, too, has now been removed, and along with it all reasonable doubts of the new management's intentions. (EDIT: As of June 2nd, the export functionality has been restored, although it is unlinked to from anyehere; it seems that at least as impossible to justify in the face of popular outcry.  You can find it [here](https://myanimelist.net/panel.php?go=export)
 
-I recommend everyone migrate to AniList as soon as possible, which has more and better features for development, although it does have  a somewhat disappointing, mobile-first look, for users coming from MAL.  Unlike MAL, though, if that really bothers you, you're absolutely free to get to work and fix it, rather than wait for an indifferent management to do so.
+I recommend everyone migrate to AniList as soon as possible, which has more and better features for development, although it does have  a somewhat disappointing, mobile-first look, for users coming from MAL.  Unlike MAL, though, if that really bothers you, you're absolutely free to get to work and fix it, rather than wait for an indifferent management to do so.  Also, check out [gatsby-source-anilist](https://github.com/jamesdanylik/gatsby-source-anilist), which allows access to A LOT more than this plugin ever did.
 
 # Orignial README.md
 
