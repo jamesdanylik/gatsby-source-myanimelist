@@ -1,6 +1,5 @@
 # gatsby-source-myanimelist
 
-[![Build Status](https://travis-ci.org/jamesdanylik/gatsby-source-myanimelist.svg?branch=master)](https://travis-ci.org/jamesdanylik/gatsby-source-myanimelist)
 [![npm package](https://img.shields.io/npm/v/gatsby-source-myanimelist.svg)](https://www.npmjs.org/package/gatsby-source-myanimelist)
 [![npm package](https://img.shields.io/npm/dm/gatsby-source-myanimelist.svg)](https://npmcharts.com/compare/gatsby-source-myanimelist?minimal=true)
 
